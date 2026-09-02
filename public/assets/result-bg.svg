@@ -1,0 +1,27 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="500" height="433" viewBox="0 0 500 433" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 1321316504" clip-path="url(#clip0_0_42)">
+<mask id="mask0_0_42" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="500" height="500">
+<rect id="Rectangle 26" width="500" height="500" fill="#9D223B"/>
+</mask>
+<g mask="url(#mask0_0_42)">
+<rect id="Rectangle 27" width="500" height="500" fill="#9D223B"/>
+<g id="Ellipse 571">
+<circle cx="36" cy="134" r="388" fill="#EA1F68" style="mix-blend-mode:soft-light"/>
+</g>
+<g id="Subtract">
+<path d="M663 666H-372V-369H663V666ZM146 -247C-72.1525 -247 -249 -70.1525 -249 148C-249 366.152 -72.1525 543 146 543C364.152 543 541 366.152 541 148C541 -70.1525 364.152 -247 146 -247Z" fill="#EA1F68" style="mix-blend-mode:soft-light"/>
+</g>
+<g id="Ellipse 573">
+<circle cx="434" cy="-21" r="125" fill="#EA1F68" style="mix-blend-mode:soft-light"/>
+</g>
+<g id="Ellipse 572">
+<circle cx="-31" cy="710" r="388" fill="#EA1F68" style="mix-blend-mode:soft-light"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_42">
+<rect width="500" height="433" fill="white"/>
+</clipPath>
+</defs>
+</svg>
