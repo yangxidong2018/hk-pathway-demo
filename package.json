@@ -1,5 +1,5 @@
 {
-  "name": "hk-pathway-demo",
+  "name": "gopathway-demo",
   "version": "0.2.0",
   "private": true,
   "type": "module",
@@ -7,9 +7,15 @@
     "dev": "node server.js",
     "start": "node server.js",
     "test": "node tests/rules.test.js",
+    "test:cross-border": "node tests/cross-border.test.mjs",
+    "test:cross-border-ui": "node tests/cross-border-ui.mjs",
+    "verify:new-base": "node scripts/verify-new-base.mjs",
     "test:recommendations": "node tests/recommendations.test.js",
     "test:agent": "node tests/agent.test.js",
     "test:api": "node tests/api.test.js",
-    "test:ui": "node tests/ui-smoke.mjs"
+    "test:ui": "node tests/ui-smoke.mjs",
+    "test:localization": "node tests/localization.test.mjs",
+    "test:localization-browser": "node tests/localization-browser.mjs",
+    "test:localization-full": "node tests/full-localization-layout.mjs"
   }
 }
