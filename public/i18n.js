@@ -93,6 +93,10 @@ Object.assign(packs['pt-BR'],{
  '不满1年':'Menos de 1 ano','1—3年':'1–3 anos','3—5年':'3–5 anos','5—10年':'5–10 anos','10年以上':'Mais de 10 anos','50—199人':'50–199 pessoas','200人及以上':'200 pessoas ou mais','暂无海外收入':'Sem receita internacional','东南亚':'Sudeste Asiático','欧洲':'Europa','北美':'América do Norte','中东':'Oriente Médio','目前还没有客户':'Ainda sem clientes','仅人民币':'Somente CNY','港币':'HKD','美元':'USD','欧元或英镑':'EUR ou GBP','其他外币':'Outras moedas','目前还没有收付款':'Ainda sem pagamentos','跨境收付款':'Pagamentos internacionais','与海外客户签约':'Firmar contratos com clientes internacionais','进入香港或国际市场':'Entrar em Hong Kong ou em mercados internacionais','品牌及知识产权保护':'Proteção de marca e propriedade intelectual','税务及持续合规':'Tributos e conformidade contínua','目前没有明确问题':'Nenhuma questão específica','承接海外合同':'Assinar contratos internacionais','处理跨境收付款':'Processar pagamentos internacionais','开拓香港或国际市场':'Expandir em Hong Kong ou internacionalmente','融资或引入投资':'Captar recursos ou atrair investimento','设立区域总部':'Criar sede regional','商标或品牌':'Marca registrada ou marca','专利':'Patente','软件著作权或源代码':'Direitos de software ou código-fonte','内容版权':'Direitos autorais de conteúdo','商业秘密':'Segredo comercial','目前没有核心知识产权':'Sem propriedade intelectual central'
 });
 
+Object.assign(packs.en,{'登录后查看企业信息、评估记录和收藏内容。':'Sign in to view your business information, assessment records and saved items.'});
+Object.assign(packs.vi,{'登录后查看企业信息、评估记录和收藏内容。':'Đăng nhập để xem thông tin doanh nghiệp, lịch sử đánh giá và nội dung đã lưu.'});
+Object.assign(packs['pt-BR'],{'登录后查看企业信息、评估记录和收藏内容。':'Entre para ver as informações da empresa, os registros de avaliação e os itens salvos.'});
+
 // UI copy is addressed by stable semantic keys. The legacy phrase map below is
 // retained only for API/business values that still arrive as Chinese strings.
 const semantic={
