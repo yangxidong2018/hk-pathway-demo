@@ -96,6 +96,12 @@ Object.assign(packs['pt-BR'],{
 Object.assign(packs.en,{'登录后查看企业信息、评估记录和收藏内容。':'Sign in to view your business information, assessment records and saved items.'});
 Object.assign(packs.vi,{'登录后查看企业信息、评估记录和收藏内容。':'Đăng nhập để xem thông tin doanh nghiệp, lịch sử đánh giá và nội dung đã lưu.'});
 Object.assign(packs['pt-BR'],{'登录后查看企业信息、评估记录和收藏内容。':'Entre para ver as informações da empresa, os registros de avaliação e os itens salvos.'});
+Object.assign(packs.en,{'问一问  我想注册一家跨国公司':'Ask AI  I want to register an international company'});
+Object.assign(packs.vi,{'问一问  我想注册一家跨国公司':'Hỏi AI  Tôi muốn đăng ký một công ty quốc tế'});
+Object.assign(packs['pt-BR'],{'问一问  我想注册一家跨国公司':'Pergunte à IA  Quero registrar uma empresa internacional'});
+Object.assign(packs.en,{'问一问  注册跨国公司':'Ask AI  Register internationally','向AI提问：例如注册跨国公司':'Ask AI, for example about international company registration'});
+Object.assign(packs.vi,{'问一问  注册跨国公司':'Hỏi AI  Đăng ký quốc tế','向AI提问：例如注册跨国公司':'Hỏi AI, ví dụ về đăng ký công ty quốc tế'});
+Object.assign(packs['pt-BR'],{'问一问  注册跨国公司':'Pergunte à IA  Registrar no exterior','向AI提问：例如注册跨国公司':'Pergunte à IA, por exemplo sobre registro internacional de empresas'});
 
 // UI copy is addressed by stable semantic keys. The legacy phrase map below is
 // retained only for API/business values that still arrive as Chinese strings.
@@ -106,7 +112,7 @@ const semantic={
   'home.actions.title':'你的赴港行动建议','home.actions.summary':'建议先验证最核心的业务机会，再决定香港公司承担什么功能。','home.support.title':'完成这一步，建议获得专业支持','home.support.providers':'根据你的企业情况和当前需求，我们为你筛选了以下服务商。',
   'provider.services':'可提供服务','provider.languages':'服务语言','provider.method':'办理方式','provider.type':'专业服务机构','provider.intro':'点击查看服务商的完整资料。','provider.empty.title':'专业支持建议','provider.empty.body':'正在扩充能够承接这项需求的服务商，你仍可先查看行动要求。',
   'assessment.entry.title':'评估入口','assessment.entry.subtitle':'你可以随时重新评估，首页将按最新结果更新。','assessment.entry.label':'AI 赴港评估','assessment.entry.name':'准备开香港公司','assessment.entry.body':'更新企业目标、业务阶段和赴港需求。','assessment.entry.button':'重新进行赴港评估 →',
-  'guide.title':'你的赴港指南信息','guide.subtitle':'先了解香港的营商环境和连接优势，再判断能否为业务带来实际价值。'
+  'guide.title':'跨境企业信息','guide.subtitle':'了解公司注册、经营与专业服务的实用信息。'
   ,'profile.aboutLine':'关于 gopathway.tech'
  },
  'zh-HK':{
@@ -115,7 +121,7 @@ const semantic={
   'home.actions.title':'你的赴港行動建議','home.actions.summary':'建議先驗證最核心的業務機會，再決定香港公司承擔什麼功能。','home.support.title':'完成這一步，建議獲得專業支援','home.support.providers':'根據你的企業情況和當前需求，我們為你篩選了以下服務商。',
   'provider.services':'可提供服務','provider.languages':'服務語言','provider.method':'辦理方式','provider.type':'專業服務機構','provider.intro':'點擊查看服務商的完整資料。','provider.empty.title':'專業支援建議','provider.empty.body':'正在擴充能夠承接這項需求的服務商，你仍可先查看行動要求。',
   'assessment.entry.title':'評估入口','assessment.entry.subtitle':'你可以隨時重新評估，首頁將按最新結果更新。','assessment.entry.label':'AI 赴港評估','assessment.entry.name':'準備開香港公司','assessment.entry.body':'更新企業目標、業務階段和赴港需求。','assessment.entry.button':'重新進行赴港評估 →',
-  'guide.title':'你的赴港指南資訊','guide.subtitle':'先了解香港的營商環境和連接優勢，再判斷能否為業務帶來實際價值。'
+  'guide.title':'跨境企業資訊','guide.subtitle':'了解公司註冊、經營與專業服務的實用資訊。'
   ,'profile.aboutLine':'關於 gopathway.tech'
  },
  en:{
@@ -124,7 +130,7 @@ const semantic={
   'home.actions.title':'Your Hong Kong action plan','home.actions.summary':'Validate the most important opportunity before deciding the role of your Hong Kong company.','home.support.title':'Professional support is recommended for this step','home.support.providers':'We selected the following providers based on your business and current needs.',
   'provider.services':'Services','provider.languages':'Languages','provider.method':'Delivery','provider.type':'Professional services','provider.intro':'Open the provider profile for full details.','provider.empty.title':'Professional support','provider.empty.body':'We are expanding the provider list. You can review the action requirements first.',
   'assessment.entry.title':'Assessment','assessment.entry.subtitle':'Retake the assessment at any time. Your home page will use the latest result.','assessment.entry.label':'AI Hong Kong assessment','assessment.entry.name':'Planning a Hong Kong company','assessment.entry.body':'Update your business goals, stage and Hong Kong needs.','assessment.entry.button':'Retake Hong Kong assessment →',
-  'guide.title':'Your Hong Kong guide','guide.subtitle':'Learn about Hong Kong’s business environment and connectivity before assessing its value to your business.'
+  'guide.title':'Cross-border business information','guide.subtitle':'Explore practical information on company setup, operations and professional services.'
   ,'profile.aboutLine':'About gopathway.tech'
  },
  vi:{
@@ -133,7 +139,7 @@ const semantic={
   'home.actions.title':'Kế hoạch hành động tại Hồng Kông','home.actions.summary':'Hãy xác minh cơ hội quan trọng nhất trước khi quyết định vai trò của công ty Hồng Kông.','home.support.title':'Nên có hỗ trợ chuyên môn cho bước này','home.support.providers':'Chúng tôi đã chọn các nhà cung cấp phù hợp với doanh nghiệp và nhu cầu hiện tại của bạn.',
   'provider.services':'Dịch vụ','provider.languages':'Ngôn ngữ','provider.method':'Phương thức','provider.type':'Dịch vụ chuyên nghiệp','provider.intro':'Mở hồ sơ để xem đầy đủ thông tin.','provider.empty.title':'Hỗ trợ chuyên môn','provider.empty.body':'Danh sách nhà cung cấp đang được mở rộng. Bạn có thể xem yêu cầu hành động trước.',
   'assessment.entry.title':'Đánh giá','assessment.entry.subtitle':'Bạn có thể đánh giá lại bất cứ lúc nào; trang chủ sẽ dùng kết quả mới nhất.','assessment.entry.label':'Đánh giá Hồng Kông bằng AI','assessment.entry.name':'Lập kế hoạch công ty Hồng Kông','assessment.entry.body':'Cập nhật mục tiêu, giai đoạn và nhu cầu tại Hồng Kông.','assessment.entry.button':'Đánh giá lại →',
-  'guide.title':'Hướng dẫn Hồng Kông','guide.subtitle':'Tìm hiểu môi trường kinh doanh và lợi thế kết nối của Hồng Kông trước khi đánh giá giá trị cho doanh nghiệp.'
+  'guide.title':'Thông tin doanh nghiệp xuyên biên giới','guide.subtitle':'Khám phá thông tin thực tế về thành lập, vận hành doanh nghiệp và dịch vụ chuyên môn.'
   ,'profile.aboutLine':'Về gopathway.tech'
  },
  'pt-BR':{
@@ -142,7 +148,7 @@ const semantic={
   'home.actions.title':'Seu plano de ação em Hong Kong','home.actions.summary':'Valide a oportunidade mais importante antes de definir o papel da empresa em Hong Kong.','home.support.title':'Recomendamos apoio profissional nesta etapa','home.support.providers':'Selecionamos os prestadores mais adequados ao seu negócio e às necessidades atuais.',
   'provider.services':'Serviços','provider.languages':'Idiomas','provider.method':'Atendimento','provider.type':'Serviços profissionais','provider.intro':'Abra o perfil para ver todos os detalhes.','provider.empty.title':'Apoio profissional','provider.empty.body':'Estamos ampliando a lista de prestadores. Você já pode revisar os requisitos desta ação.',
   'assessment.entry.title':'Avaliação','assessment.entry.subtitle':'Refaça a avaliação quando quiser; a página inicial usará o resultado mais recente.','assessment.entry.label':'Avaliação de Hong Kong por IA','assessment.entry.name':'Planejamento de uma empresa em Hong Kong','assessment.entry.body':'Atualize os objetivos, a fase e as necessidades em Hong Kong.','assessment.entry.button':'Refazer avaliação →',
-  'guide.title':'Seu guia de Hong Kong','guide.subtitle':'Conheça o ambiente de negócios e a conectividade de Hong Kong antes de avaliar o valor para sua empresa.'
+  'guide.title':'Informações empresariais internacionais','guide.subtitle':'Conheça informações práticas sobre abertura, operação e serviços profissionais.'
   ,'profile.aboutLine':'Sobre a gopathway.tech'
  }
 };

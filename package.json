@@ -16,6 +16,7 @@
     "test:ui": "node tests/ui-smoke.mjs",
     "test:localization": "node tests/localization.test.mjs",
     "test:localization-browser": "node tests/localization-browser.mjs",
-    "test:localization-full": "node tests/full-localization-layout.mjs"
+    "test:localization-full": "node tests/full-localization-layout.mjs",
+    "test:tencent-asr": "node tests/tencent-asr.test.mjs"
   }
 }
