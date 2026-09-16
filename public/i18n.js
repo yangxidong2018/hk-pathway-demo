@@ -55,6 +55,18 @@ Object.assign(packs['pt-BR'],{
  'AI 跨境顾问':'Consultor de IA para negócios internacionais','登录后才能开始对话':'Entre para iniciar uma conversa','登录后，AI 才能结合你的企业信息和评估记录提供建议，并保存本次沟通。':'Após entrar, a IA pode usar as informações da sua empresa e os registros de avaliação para aconselhar e salvar esta conversa.','暂不登录':'Agora não','去登录':'Entrar'
 });
 Object.assign(packs.en,{
+ '账号关联':'Account linking','需要重新关联账号':'Reconnect your account','重新登录后，我们会继续保留当前对话。':'After you sign in again, your current conversation will be kept.','重新登录':'Sign in again',
+ '跨国注册公司评估':'Cross-border company registration assessment','先选择目标国家／地区':'Choose a target country / region first','选择后，我们会展示该国家的专项问题并生成对应方案。':'After you choose, we will show country-specific questions and generate a matching plan.','选择目标国家':'Choose target country'
+});
+Object.assign(packs.vi,{
+ '账号关联':'Liên kết tài khoản','需要重新关联账号':'Kết nối lại tài khoản','重新登录后，我们会继续保留当前对话。':'Sau khi đăng nhập lại, cuộc trò chuyện hiện tại của bạn vẫn được giữ.','重新登录':'Đăng nhập lại',
+ '跨国注册公司评估':'Đánh giá đăng ký công ty xuyên biên giới','先选择目标国家／地区':'Trước tiên, chọn quốc gia / khu vực mục tiêu','选择后，我们会展示该国家的专项问题并生成对应方案。':'Sau khi chọn, chúng tôi sẽ hiển thị câu hỏi riêng cho quốc gia đó và tạo phương án phù hợp.','选择目标国家':'Chọn quốc gia mục tiêu'
+});
+Object.assign(packs['pt-BR'],{
+ '账号关联':'Vinculação da conta','需要重新关联账号':'Reconecte sua conta','重新登录后，我们会继续保留当前对话。':'Após entrar novamente, sua conversa atual será mantida.','重新登录':'Entrar novamente',
+ '跨国注册公司评估':'Avaliação para registrar empresa no exterior','先选择目标国家／地区':'Primeiro, escolha o país / região de destino','选择后，我们会展示该国家的专项问题并生成对应方案。':'Após escolher, mostraremos perguntas específicas do país e geraremos um plano correspondente.','选择目标国家':'Escolher país de destino'
+});
+Object.assign(packs.en,{
  '服务商详情':'Provider details','可提供的服务':'Available services','适合的企业':'Suitable businesses','企业规模':'Company size','经营阶段':'Business stage','服务语言':'Languages','资质核验':'Credential check','服务说明':'Service details','不包含的服务':'Services not included','前往官方网站 ↗':'Visit official website ↗','已核验':'Verified','未说明':'Not specified','待核验':'Pending verification',
  '指南详情':'Guide details','赴港指南':'Hong Kong guide','信息来源：':'Source: ','这篇内容可以帮你了解':'What this guide covers','为什么推荐给你':'Why this is recommended','根据你最近一次赴港评估的结论，这篇内容与你当前需要了解的设立、经营或合规事项相关。':'Based on your latest assessment, this guide is relevant to the setup, operations or compliance matters you need to understand.','查看官方原文 ↗':'View official source ↗',
  '企业信息已与账号关联':'Your business profile is linked to this account','账号资料':'Account details','手机、称呼与语言偏好　→':'Phone, name and language preference →','企业信息表':'Business profile','查看和编辑已确认的信息　→':'View and edit confirmed information →','我的评估与计划':'My assessments and plans','暂无评估　→':'No assessment yet →','收藏的服务商':'Saved providers','查看收藏与比较列表　→':'View saved and comparison list →','关于公司':'About the company','服务商与机构合作　→':'Provider and institutional partnerships →','服务时间与问题反馈　→':'Support hours and feedback →','退出登录':'Sign out',
