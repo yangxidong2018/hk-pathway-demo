@@ -114,6 +114,9 @@ Object.assign(packs['pt-BR'],{'问一问  我想注册一家跨国公司':'Pergu
 Object.assign(packs.en,{'问一问  注册跨国公司':'Ask AI  Register internationally','向AI提问：例如注册跨国公司':'Ask AI, for example about international company registration'});
 Object.assign(packs.vi,{'问一问  注册跨国公司':'Hỏi AI  Đăng ký quốc tế','向AI提问：例如注册跨国公司':'Hỏi AI, ví dụ về đăng ký công ty quốc tế'});
 Object.assign(packs['pt-BR'],{'问一问  注册跨国公司':'Pergunte à IA  Registrar no exterior','向AI提问：例如注册跨国公司':'Pergunte à IA, por exemplo sobre registro internacional de empresas'});
+Object.assign(packs.en,{'查看全部评估记录':'View all assessment records'});
+Object.assign(packs.vi,{'查看全部评估记录':'Xem toàn bộ lịch sử đánh giá'});
+Object.assign(packs['pt-BR'],{'查看全部评估记录':'Ver todos os registros de avaliação'});
 
 // UI copy is addressed by stable semantic keys. The legacy phrase map below is
 // retained only for API/business values that still arrive as Chinese strings.
